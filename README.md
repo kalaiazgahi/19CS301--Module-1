@@ -30,7 +30,8 @@ print(string_single_quotes)
 print(string_double_quotes)
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/61c091af-7bf7-496e-98d7-5d1039b10e4e)
+![Screenshot 2025-05-11 214241](https://github.com/user-attachments/assets/0032a3ab-0bdd-4603-b5b9-70a995489cbf)
+
 
 
  
@@ -111,32 +112,36 @@ Thus the python program for  adding two complex numbers has been implemented and
 Exp.No:1(d)	CONDITIONAL STATEMENTS- CHECKING VOWEL OR NOT
 
 ### AIM
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To write a Python program to find the maximum of two float numbers using a conditional expression (Ternary operator).
+
+
 ### ALGORITHM
-Step 1:	 Begin the program.
+Step 1: Begin the program.
 
-Step 2:	 Take a character input from the user
+Step 2: Take two float inputs from the user.
 
-Step 3:	 Convert the character to lowercase
+Step 3: Use a conditional expression (Ternary operator) to compare the two numbers.
 
-Step 4:	 Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
+Step 4: Assign the maximum value to a variable.
 
-Step 5:	 If it is a vowel, display "The given character is a vowel"
+Step 5: Display the result showing both numbers and the maximum.
 
-Step 6:	 Otherwise, display "The given character is NOT a vowel"
+Step 6: Terminate the program.
 
-Step 7:	 Terminate the program.
+
 
 ### PROGRAM
 ```char = input("Enter a character: ")
-char_lower = char.lower()
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
-else:
-    print("The given character is NOT a vowel")
+a=float(input())
+b=float(input())
+max=a
+if(b>a) :
+   max =b
+print(f'The maximum of {a} and {b} is {max}')   
 ```
 ### OUTPUT 
-![image](https://github.com/user-attachments/assets/c8b79e3c-6d44-4da2-b72a-461b3e03cfee)
+![Screenshot 2025-05-11 215436](https://github.com/user-attachments/assets/9401c2d5-7513-45ce-ac11-c36719ca9d22)
+
 
 
 ### RESULT
@@ -176,7 +181,8 @@ min_num=num1 if(num1<=num2 and num1<=num3) else num2 if(num2<=num1 and num2<=num
 print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/64e607d4-916a-4df8-b2f4-450f68295884)
+![image](https://github.com/user-attachments/assets/14a0fb67-65dc-4ae8-8f73-2cd33146515b)
+
 
  
 ### RESULT
